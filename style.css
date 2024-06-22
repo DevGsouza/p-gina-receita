@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Martian+Mono:wght@100..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    --webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --cor-fundo:#f0e8c2;
+    --cor-titles: #291b1a;
+    --cor-text: #573a37;
+}
+
+body,
+*,
+:root {
+    font-family: 'Alice', sans-serif;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+body {
+    padding: 2.4rem;
+    max-width: 75.2rem;
+    margin-inline: auto;
+    
+    background-image: url(./image/background-image.jpg);
+    background-size: cover;
+}
+
+main {
+    background-color: var(--cor-fundo);
+    padding: 2.4rem;
+    border-radius: 2.4rem;
+}
+
+main img {
+    width: 100%;
+    border-radius: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+h1 {
+    line-height: 140%;
+    margin-bottom: 4px;
+
+    font-size: 4rem;
+}
+
+p, ul{
+    font-size: 1.6rem;
+    
+    margin-bottom: 1.2rem;
+}
+
+.especific {
+    list-style: none;
+    margin-bottom: 2.4rem;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 4px;
+}
+
+.preparo h2 {
+    margin-top: 2.4rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2.8rem;
+    color: #f0e8c2;
+}
+
+footer img {
+    padding-inline: 4px;
+}
